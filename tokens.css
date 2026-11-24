@@ -1,0 +1,24 @@
+/* Fogón — generated from tokens.json */
+:root {
+  --surface-100: #fbf6ee;
+  --surface-200: #f3eadb;
+  --ink: #2a1f17;
+  --ink-muted: #6b5a4b;
+  --rojo: #4a0c0c;
+  --on-rojo: #ffffff;
+  --accent: #3f6b3a;
+  --honey: #e0a526;
+  --line: #e0d3bf;
+  --p: 0 1px 2px #b9080833;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --asd: 100px;
+  --as: 4px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-pill: 999px;
+  --font-times-new-roman: 'Times New Roman', Times, serif;
+  --font-sans: system-ui, -apple-system, 'Segoe UI', sans-serif;
+}

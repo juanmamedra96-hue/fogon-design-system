@@ -1,0 +1,45 @@
+<!-- @dsCard height=288 -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<style>
+  html,body{margin:0;padding:0}
+  body{width:960px;height:288px;position:relative;overflow:hidden;background:var(--surface-100,#fbf6ee)}
+  svg{position:absolute;left:0;top:0;width:960px;height:288px}
+  .brand{fill:var(--rojo,#4a0c0c)}
+  .ink{fill:var(--ink,#2a1f17)}
+  .honey{fill:var(--honey,#e0a526)}
+  .accent{fill:var(--accent,#3f6b3a)}
+  .ground{fill:var(--surface-100,#fbf6ee)}
+  .block{rx:var(--radius-lg,20px)}
+  .text{position:absolute;left:40px;bottom:32px;width:440px}
+  h1{margin:0;font-family:var(--font-times-new-roman,"Times New Roman",Times,serif);font-weight:700;font-size:120px;line-height:.95;color:var(--ink,#2a1f17)}
+  p{margin:12px 0 0;font-family:var(--font-sans,system-ui,sans-serif);font-size:14px;line-height:20px;color:var(--ink-muted,#6b5a4b)}
+</style>
+</head>
+<body>
+<svg viewBox="0 0 960 288" aria-hidden="true">
+  <!--
+  Bloques: brand 232x200 (sangra arriba), accent 248x152 (sangra arriba y a la derecha), honey 112x160 (sangra abajo), ink 232x112 (sangra abajo); esquinas radius-lg.
+  Disposición: pila escalonada en la mitad derecha, bloques separados por space-4 (24).
+  Patrón: discos y píldoras de la escala de radios; "suave, amistoso, esquinas grandes" y el plato del fogón como motivo.
+  Pasos y radios: space-4 = 24 entre bloques, radius-lg = 20, píldoras radius-pill (mitad de la altura), discos r 24/40/56.
+  -->
+  <rect class="block brand" x="480" y="-24" width="232" height="200"/>
+  <circle class="ground" cx="596" cy="76" r="56"/>
+  <circle class="brand" cx="596" cy="76" r="24"/>
+  <rect class="block accent" x="736" y="-24" width="248" height="152"/>
+  <path class="honey" d="M776 128a40 40 0 0 1 80 0z"/>
+  <rect class="block honey" x="736" y="152" width="112" height="152"/>
+  <rect class="block ink" x="480" y="200" width="232" height="104"/>
+  <rect class="ground" x="504" y="224" width="96" height="24" rx="12"/>
+  <rect class="ground" x="504" y="260" width="64" height="24" rx="12"/>
+  <circle class="brand" cx="904" cy="216" r="40"/>
+</svg>
+<div class="text">
+  <h1>Fogón</h1>
+  <p>Cálido, claro y listo para la mesa.</p>
+</div>
+</body>
+</html>
